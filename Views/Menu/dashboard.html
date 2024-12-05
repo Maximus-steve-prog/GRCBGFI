@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRCBGFI</title>
+    <link rel="stylesheet" href="../Css/icon.css">
+    <link rel="shortcut icon" href="../images/Icon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../Css/font-awesome.min.css">
+    <link rel="stylesheet" href="../Css/boxicons.min.css">
+    <link rel="stylesheet" href="../Css/main.css">
+    <link rel="stylesheet" href="../Css/cdnjs.cloudflare.com_ajax_libs_font-awesome_6.4.2_css_all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <!-- <i id="img" class="bx bxs-bank"></i> -->
+                    <img src="../images/Icon.jpg" alt="">
+                    <h2>GRC <span class="danger">BGFI</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons">close</span>
+                </div>
+            </div>
+            <div class="sidebar">
+                <a href="#" class="active">
+                    <span class="material-icons">grid_view</span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="#" class="actives">
+                    <span class="material-icons">person_outline</span>
+                    <h3>Clients</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons">receipt_long</span>
+                    <h3>Orders</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons">insights</span>
+                    <h3>Anlytics</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons">mail</span>
+                    <h3>Reclamation</h3>
+                    <span class="message-count">26</span>
+                </a>
+                <a href="#">
+                    <span class="material-icons">inventory</span>
+                    <h3>Services</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons">report</span>
+                    <h3>Admin</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons">settings</span>
+                    <h3>Settings</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons">addperson</span>
+                    <h3>Add Clients</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons">logout</span>
+                    <h3>Logout</h3>
+                </a>
+            </div>
+        </aside>
+
+        <main>
+            <h1>Tableau de Bord</h1>
+            <div class="date">
+                <input type="date">
+            </div>
+            <div class="insights">
+                <div class="client">
+                    <span class="material-icons">person</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Client</h3>
+                            <h1>3527</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38' cy='38' r='36'></circle>
+                            </svg>
+                            <div class="number">
+                                <p>81%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 hours</small>
+                </div>
+                <!-- End Count Clients 
+                <div class="analytics">
+                    <span class="material-icons">analytics</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Sales</h3>
+                            <h1>$25,034</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38' cy='38' r='36'></circle>
+                            </svg>
+                            <div class="number">
+                                <p>81%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 hours</small>
+                </div>-->
+                <!-- End Count Analytics -->
+                <div class="expenses">
+                    <span class="material-icons">bar_chart</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Reclam</h3>
+                            <h1>1527</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38' cy='38' r='36'></circle>
+                            </svg>
+                            <div class="number">
+                                <p>62%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 hours</small>
+                </div>
+                <!-- End Of Expenses -->
+                <div class="income">
+                    <span class="material-icons">stacked_line_chart</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Income</h3>
+                            <h1>736</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38' cy='38' r='36'></circle>
+                            </svg>
+                            <div class="number">
+                                <p>44%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 hours</small>
+                </div>
+                <!-- End Incomes -->
+            </div>
+            <div id="body_table">
+                <div class="tablediv">
+                    <section class="table_header">
+                        <h1>Clients List</h1>
+                    </section>
+                    <section class="table_body">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>id</th>
+                                    <th>image</th>
+                                    <th>fname</th>
+                                    <th>Phone</th>
+                                    <th>Order date</th>
+                                    <th>Status</th>
+                                    <th>Amount</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td><img src="../images/MyImage1.jpg" alt=""></td>
+                                    <td>Steve</td>
+                                    <td>74355406</td>
+                                    <td>04 Nov, 2000</td>
+                                    <td>
+                                        <p class="status delivered">Delivered</p>
+                                    </td>
+                                    <td><strong>$128,26</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td><img src="../images/MyImage.jpg" alt=""></td>
+                                    <td>image</td>
+                                    <td>74355406</td>
+                                    <td>04 Nov, 2000</td>
+                                    <td>
+                                        <p class="status cancelled">Cancelled</p>
+                                    </td>
+                                    <td><strong>726</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td><img src="../images/backgroundImage1.jpg" alt=""></td>
+                                    <td>image</td>
+                                    <td>74355406</td>
+                                    <td>04 Nov, 1995</td>
+                                    <td>
+                                        <p class="status shipped">Shipped</p>
+                                    </td>
+                                    <td><strong>$128,26</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td><img src="../images/backgroundImage.jpg" alt=""></td>
+                                    <td>image 2</td>
+                                    <td>74355406</td>
+                                    <td>04 Nov, 2000</td>
+                                    <td>
+                                        <p class="status pending">Pending</p>
+                                    </td>
+                                    <td><strong></strong>$128,92</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td><img src="../images/MyImage1.jpg" alt=""></td>
+                                    <td>Steve</td>
+                                    <td>74355406</td>
+                                    <td>04 Nov, 2000</td>
+                                    <td>
+                                        <p class="status cancelled">Cancelled</p>
+                                    </td>
+                                    <td><strong></strong>$128,92</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td><img src="../images/MyImage.jpg" alt=""></td>
+                                    <td>image</td>
+                                    <td>74355406</td>
+                                    <td>04 Nov, 2000</td>
+                                    <td>
+                                        <p class="status pending">Pending</p>
+                                    </td>
+                                    <td><strong>$128,26</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td><img src="../images/backgroundImage1.jpg" alt=""></td>
+                                    <td>image</td>
+                                    <td>74355406</td>
+                                    <td>04 Nov, 1995</td>
+                                    <td>
+                                        <p class="status delivered">Delivered</p>
+                                    </td>
+                                    <td><strong>$128,26</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td><img src="../images/backgroundImage.jpg" alt=""></td>
+                                    <td>image 2</td>
+                                    <td>74355406</td>
+                                    <td>04 Nov, 2000</td>
+                                    <td>
+                                        <p class="status cancelled">Cancelled</p>
+                                    </td>
+                                    <td><strong></strong>$128,92</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                </div>
+            </div>
+        </main>
+        <div class="right">
+            <div class="top">
+                <button id="menu-btn">
+                    <span class="material-icons">menu</span>
+                </button>
+                <div class="theme-toggler">
+                    <span class="material-icons active">light_mode</span>
+                    <span class="material-icons">dark_mode</span>
+                </div>
+                <div class="profile">
+                    <div class="info">
+                        <p><b>'.$data['username'].'</b></p>
+                        <small class="text-muted">'.$data['userstatut'].'</small>
+                        </div>
+                        <div class="profile-photo">
+                            <img src="../images/UploadImages/'.$data['userphoto'].'">
+                        </div>
+                </div>
+            </div>
+
+            <div class="recent-reclam">
+                <h2>Recent Reclamation</h2>
+                <div class="reclams">
+                    <div class="reclam">
+                        <div class="profile-photo">
+                            <img src="../images/MyImage.jpg" alt="">
+                        </div>
+                        <div class="message">
+                            <p> <b>Max Stone</b>My reclam
+                                is according the...</p>
+                            <small class="text-muted">2 hours ago</small>
+                        </div>
+                    </div>
+                    <div class="reclam">
+                        <div class="profile-photo">
+                            <img src="../images/UploadImages/1812176250.jpg" alt="">
+                        </div>
+                        <div class="message">
+                            <p> <b>Max Stone</b>My reclam
+                                is according the...</p>
+                            <small class="text-muted">2 hours ago</small>
+                        </div>
+                    </div>
+                    <div class="reclam">
+                        <div class="profile-photo">
+                            <img src="../images/UploadImages/1812176250.jpg" alt="">
+                        </div>
+                        <div class="message">
+                            <p> <b>Max Stone</b>My reclam
+                                is according the...</p>
+                            <small class="text-muted">2 hours ago</small>
+                        </div>
+                    </div>
+                    <div class="reclam">
+                        <div class="profile-photo">
+                            <img src="../images/UploadImages/1812176250.jpg" alt="">
+                        </div>
+                        <div class="message">
+                            <p> <b>Max Stone</b>My reclam
+                                is according the...</p>
+                            <small class="text-muted">2 hours ago</small>
+                        </div>
+                    </div>
+                    <div class="reclam">
+                        <div class="profile-photo">
+                            <img src="../images/UploadImages/1812176250.jpg" alt="">
+                        </div>
+                        <div class="message">
+                            <p> <b>Max Stone</b>My reclam
+                                is according the...</p>
+                            <small class="text-muted">2 hours ago</small>
+                        </div>
+                    </div>
+                    <div class="reclam">
+                        <div class="profile-photo">
+                            <img src="../images/UploadImages/1812176250.jpg" alt="">
+                        </div>
+                        <div class="message">
+                            <p> <b>Max Stone</b>My reclam
+                                is according the...</p>
+                            <small class="text-muted">2 hours ago</small>
+                        </div>
+                    </div>
+                    <div class="reclam">
+                        <div class="profile-photo">
+                            <img src="../images/UploadImages/1812176250.jpg" alt="">
+                        </div>
+                        <div class="message">
+                            <p> <b>Max Stone</b>My reclam
+                                is according the...</p>
+                            <small class="text-muted">2 hours ago</small>
+                        </div>
+                    </div>
+                    <div class="reclam">
+                        <div class="profile-photo">
+                            <img src="../images/UploadImages/1366232660.jpg" alt="">
+                        </div>
+                        <div class="message">
+                            <p> <b>Max Stone</b>My reclam
+                                is according the...</p>
+                            <small class="text-muted">2 hours ago</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="sales-analytics">
+                <h2>Reclam Analytics</h2>
+                <div class="item online">
+                    <div class="icon">
+                        <span class="material-icons">cloud</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>Réclamations traitées</h3>
+                            <small class="text-muted">2 days</small>
+                        </div>
+                        <h5 class="success">+45%</h5>
+                        <h3>5460</h3>
+                    </div>
+                </div>
+                <div class="item offline">
+                    <div class="icon">
+                        <span class="material-icons">money</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>Réclamations non traitées</h3>
+                            <small class="text-muted">2 days</small>
+                        </div>
+                        <h5 class="success">+45%</h5>
+                        <h3>5460</h3>
+                    </div>
+                </div>
+                <div class="item customers">
+                    <div class="icon">
+                        <span class="material-icons">person</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>Traite Reclam</h3>
+                            <small class="text-muted">2 days</small>
+                        </div>
+                        <h5 class="success">+45%</h5>
+                        <h3>5460</h3>
+                    </div>
+                </div>
+                <div class="item add-client">
+                    <div >
+                        <span class="material-icons">addperson</span>
+                        <h3>Ajouter Client</h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="../Js/cdnjs.cloudflare.com_ajax_libs_font-awesome_5.15.4_js_all.min.js"></script>
+    <script src="../Js/cdnjs.cloudflare.com_ajax_libs_jquery_3.7.1_jquery.min.js"></script>
+    <script src="../Js/boxicons.js"></script>
+    <script src="../Controllers/AJAXControllers/dashboard.js"></script>
+</body>
+
+</html>

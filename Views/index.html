@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/cdnjs.cloudflare.com_ajax_libs_font-awesome_6.4.2_css_all.min.css">
+    <link rel="stylesheet" href="../Css/index.css">
+    <link rel="stylesheet" href="../Css/boxicons.min.css">
+    <title>GRCBGFI</title>
+</head>
+
+<body class="body">
+    <div class="container">
+        <div class="forms-container">
+            <div class="signin-signup">
+                <!---Sign In form-->
+                <form action="" class="sign-in-form">
+                    <h2 class="title">connexion</h2>
+                    <div class="input-field">
+                        <div class="i">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <input type="email" name="emailconnexion" id="emailconnexion" autocomplete="off"
+                            placeholder="email" required>
+                    </div>
+                    <div class="input-field">
+                        <div class="i">
+                            <i class="fas fa-lock"></i>
+                        </div> <input type="password" name="passwordconnexion" id="" autocomplete="off"
+                            placeholder="password">
+                    </div>
+                    <h5 class="forgotpassword" style="color: #ccc; margin-bottom: 1rem;">Forgot password ?</h5>
+                    <input type="submit" name="btnconnexion" id="btnconnexion" value="se connecter"
+                        class="btn transparent">
+                    <p class="social-text">Or Sign in with social platforms</p>
+                    <div class="social-media">
+                        <a href="" class="social-icon">
+                            <i class="bx bxl-facebook"></i>
+                        </a>
+                        <a href="" class="social-icon">
+                            <i class="bx bxl-whatsapp"></i>
+                        </a>
+                        <a href="" class="social-icon">
+                            <i class="bx bxl-yahoo"></i>
+                        </a>
+                        <a href="" class="social-icon">
+                            <i class="bx bxl-google"></i>
+                        </a>
+                    </div>
+                </form>
+                <!-- Forgot Password Form -->
+                <form action="" class="forgot-password-form">
+                    <h2 class="title">Modify password</h2>
+                    <div class="input-field">
+                        <div class="i">
+                            <i class="bx bxs-envelope"></i>
+                        </div>
+                        <input type="email" name="emailchangepass" id="emailchangepass" autocomplete="off"
+                            id="emailchangepass" placeholder="email" required>
+                    </div>
+                    <div class="input-field">
+                        <div class="i">
+                            <i class="bx bxs-lock"></i>
+                        </div>
+                        <input type="password" name="newpass" id="newpass" autocomplete="off" placeholder="password"
+                            required>
+                    </div>
+                    <div class="input-field">
+                        <div class="i">
+                            <i class="bx bxs-lock"></i>
+                        </div>
+                        <input type="password" name="newconfpass" autocomplete="off" id="newconfpass"
+                            placeholder="Confirm password" required>
+                    </div>
+                    <h5 class="back-login" style="color: #ccc; margin-bottom: 1rem; cursor: pointer;">login <i
+                            class="fas fa-arrow-right"></i></h5>
+
+                    <input type="submit" name="modify" id="btnmodify" value="Modify" class="btn transparent">
+                    <p class="social-text">Or Sign in with social platforms</p>
+                    <div class="social-media">
+                        <a href="" class="social-icon">
+                            <i class="bx bxl-facebook"></i>
+                        </a>
+                        <a href="" class="social-icon">
+                            <i class="bx bxl-whatsapp"></i>
+                        </a>
+                        <a href="" class="social-icon">
+                            <i class="bx bxl-yahoo"></i>
+                        </a>
+                        <a href="" class="social-icon">
+                            <i class="bx bxl-google"></i>
+                        </a>
+                    </div>
+                </form>
+                <!---Sign Up Form-->
+                <form class="sign-up-form" method="POST">
+                    <h2 class="title">sign up</h2>
+                    <div class="rows">
+                        <img class="preview_img" src="" alt="" width="80px" height="80px"
+                            style="border-radius: 50%; margin-left: 40%;">
+
+                        <div class="file-upload" style=" margin-left: 40%;">
+                            <input type="file" name="imageuser" class="images" required>
+                            <span><i class="bx bx-image icon"></i></span>
+                            <span><i class="bx bx-plus icon"></i></span>
+                        </div>
+                    </div>
+                    <div class="input-field">
+                        <div class="i">
+                            <i class="bx bxs-user"></i>
+                        </div>
+                        <input type="text" name="username" id="username" placeholder="full name" autocomplete="off"
+                            required>
+                    </div>
+                    <div class="input-field">
+                        <div class="i">
+                            <i class="bx bxs-envelope"></i>
+                        </div>
+                        <input type="email" name="useremail" id="useremail" placeholder="email" autocomplete="off"
+                            required>
+                    </div>
+                    <div class="input-field">
+                        <div class="i">
+                            <i class="bx bxs-lock"></i>
+                        </div>
+                        <input type="password" name="userpassword" id="userpassword" placeholder="password"
+                            autocomplete="off" required>
+                    </div>
+                    <div class="input-field">
+                        <div class="i">
+                            <i class="bx bxs-lock"></i>
+                        </div>
+                        <input type="password" name="userconfpassword" id="userconfpassword"
+                            placeholder="Confirm password" autocomplete="off" required>
+                    </div>
+                    <input type="submit" name="createuser" id="createuser" value="create user" class="btn transparent">
+                    <p class="social-text">Or Sign in with social platforms</p>
+                    <div class="social-media">
+                        <a href="" class="social-icon">
+                            <i class="bx bxl-facebook"></i>
+                        </a>
+                        <a href="" class="social-icon">
+                            <i class="bx bxl-whatsapp"></i>
+                        </a>
+                        <a href="" class="social-icon">
+                            <i class="bx bxl-yahoo"></i>
+                        </a>
+                        <a href="" class="social-icon">
+                            <i class="bx bxl-google"></i>
+                        </a>
+                    </div>
+                </form>
+                <!-- Check Admin before register a new User -->
+                <!---Sign Up Form-->
+                <form class="check-admin-sign-up-form" id="check-admin-form" method="POST">
+                    <h2 class="title">Verification</h2>
+                    <div class="input-field">
+                        <div class="i">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <input type="email" name="emailcheck" id="" autocomplete="off" placeholder="email" required>
+                    </div>
+                    <div class="input-field">
+                        <div class="i">
+                            <i class="fas fa-lock"></i>
+                        </div> <input type="password" name="passwordcheck" id="" autocomplete="off"
+                            placeholder="password" required>
+                    </div>
+                    <input type="submit" name="btnverify" id="btnverify" value="verifier" class="btn transparent">
+                    <p class="social-text">Or Sign in with social platforms</p>
+                    <div class="social-media">
+                        <a href="" class="social-icon">
+                            <i class="bx bxl-facebook"></i>
+                        </a>
+                        <a href="" class="social-icon">
+                            <i class="bx bxl-whatsapp"></i>
+                        </a>
+                        <a href="" class="social-icon">
+                            <i class="bx bxl-yahoo"></i>
+                        </a>
+                        <a href="" class="social-icon">
+                            <i class="bx bxl-google"></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="panels-container">
+            <!---For the left Panel-->
+            <div class="panel left-panel">
+                <div class="content">
+                    <h3>New here ?</h3>
+                    <p>Please don't forget to
+                        register your account by here</p>
+                    <button class="btn transparent" id="sign-up-btn">Sign up</button>
+                </div>
+                <img src="" alt="" class="image">
+            </div>
+            <!---For the right panel-->
+            <div class="panel right-panel">
+                <div class="content">
+                    <h3>One of us ?</h3>
+                    <p>Please don't forget to
+                        register your account by here</p>
+                    <button class="btn transparent" id="sign-in-btn">Sign in</button>
+                </div>
+                <img src="" alt="" class="image">
+            </div>
+        </div>
+    </div>
+
+    <script src="../Js/cdnjs.cloudflare.com_ajax_libs_font-awesome_5.15.4_js_all.min.js"></script>
+    <script src="../Js/cdnjs.cloudflare.com_ajax_libs_limonte-sweetalert2_11.7.27_sweetalert2.all.min.js"></script>
+    <script src="../Js/cdnjs.cloudflare.com_ajax_libs_jquery_3.7.1_jquery.min.js"></script>
+    <script src="../Js/boxicons.js"></script>
+    <script src="../Controllers/AJAXControllers/userAjax.js"></script>
+
+</body>
+
+</html>

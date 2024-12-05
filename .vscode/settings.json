@@ -1,0 +1,6 @@
+{
+    "dataworkspace.excludedProjects": [
+        "Maximiliano/Maximiliano.sqlproj"
+    ],
+    "sqltools.connections": []
+}
